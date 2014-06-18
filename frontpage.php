@@ -36,7 +36,11 @@ get_header(); ?>
 					<?php wp_link_pages( array( 'before' => '<div class="pagination">' . __( 'Pages:', 'responsive' ), 'after' => '</div>' ) ); ?>
 				</div>
 				<!-- end of .post-entry -->
-				<div class="kkanalen-trailers">Apa</div>
+				<div id="trailer" class="clearfix">
+					<div id="trailer-wrapper">
+						<?php get_template_part('sidebar-trailers','1'); ?>
+					</div>
+				</div>
 				<?php get_template_part( 'post-data' ); ?>
 
 				<?php responsive_entry_bottom(); ?>
