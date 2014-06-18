@@ -169,3 +169,26 @@ margin-bottom: 0.5em;
 #widgets ul {
 	list-style-type:	none;	
 }
+
+p.post-title a {
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 1.0em;
+	color: rgb(51, 51, 51);
+	word-wrap: break-word;
+}
+
+/* 
+font-size: 1.500em;
+margin-bottom: 1em;
+margin-top: 1em;
+font-weight: 700;
+line-height: 1.0em;
+word-wrap: break-word;
+border: 0;
+font: inherit;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+
+*/
