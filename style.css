@@ -157,3 +157,15 @@ ul.related_post li a.wp_rp_thumbnail img {
 ul.footer-menu li a, .powered a, .powered, .copyright, .copyright a, scroll-top, .scroll-top a {
   color: #fff !important;
 }
+
+.top-widget {
+margin-bottom: 0.5em;
+}
+
+.kkanalen-dpe-flexible-posts {
+	list-style-type:	none;
+}
+
+#widgets ul {
+	list-style-type:	none;	
+}
